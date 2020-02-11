@@ -2,7 +2,7 @@
   "name": "expensify-app",
   "version": "1.0.0",
   "engines":{
-    "node": "8,1,2"
+    "node": "8.1.2"
   },
   "main": "index.js",
   "author": "Laura Morales",
