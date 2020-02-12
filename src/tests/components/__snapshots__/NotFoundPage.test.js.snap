@@ -1,12 +1,9 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Should render NotFoundPage 1`] = `
+exports[`test Should render NotFoundPage 1`] = `
 <div>
   404! 
   <Link
     replace={false}
-    to="/"
-  >
+    to="/">
     Go Home
   </Link>
 </div>

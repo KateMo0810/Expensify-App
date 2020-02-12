@@ -1,23 +1,18 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Should render ExpenseForm correctly 1`] = `
+exports[`test Should render ExpenseForm correctly 1`] = `
 <div>
   <form
-    onSubmit={[Function]}
-  >
+    onSubmit={[Function]}>
     <input
       autoFocus={true}
       onChange={[Function]}
       placeholder="Description"
       type="text"
-      value=""
-    />
+      value="" />
     <input
       onChange={[Function]}
       placeholder="Amount"
       type="text"
-      value=""
-    />
+      value="" />
     <SingleDatePicker
       anchorDirection="left"
       customCloseIcon={null}
@@ -92,13 +87,11 @@ exports[`Should render ExpenseForm correctly 1`] = `
       showDefaultInputIcon={false}
       weekDayFormat="dd"
       withFullScreenPortal={false}
-      withPortal={false}
-    />
+      withPortal={false} />
     <textarea
       onChange={[Function]}
       placeholder="Add a note for your expense (optional)"
-      value=""
-    />
+      value="" />
     <button>
       Add Expense
     </button>
@@ -106,24 +99,21 @@ exports[`Should render ExpenseForm correctly 1`] = `
 </div>
 `;
 
-exports[`Should render ExpenseForm with expense data 1`] = `
+exports[`test Should render ExpenseForm with expense data 1`] = `
 <div>
   <form
-    onSubmit={[Function]}
-  >
+    onSubmit={[Function]}>
     <input
       autoFocus={true}
       onChange={[Function]}
       placeholder="Description"
       type="text"
-      value="Credit Card"
-    />
+      value="Credit Card" />
     <input
       onChange={[Function]}
       placeholder="Amount"
       type="text"
-      value="45"
-    />
+      value="45" />
     <SingleDatePicker
       anchorDirection="left"
       customCloseIcon={null}
@@ -198,13 +188,11 @@ exports[`Should render ExpenseForm with expense data 1`] = `
       showDefaultInputIcon={false}
       weekDayFormat="dd"
       withFullScreenPortal={false}
-      withPortal={false}
-    />
+      withPortal={false} />
     <textarea
       onChange={[Function]}
       placeholder="Add a note for your expense (optional)"
-      value=""
-    />
+      value="" />
     <button>
       Add Expense
     </button>
@@ -212,24 +200,21 @@ exports[`Should render ExpenseForm with expense data 1`] = `
 </div>
 `;
 
-exports[`Should render erro for invalid form submission 1`] = `
+exports[`test Should render erro for invalid form submission 1`] = `
 <div>
   <form
-    onSubmit={[Function]}
-  >
+    onSubmit={[Function]}>
     <input
       autoFocus={true}
       onChange={[Function]}
       placeholder="Description"
       type="text"
-      value=""
-    />
+      value="" />
     <input
       onChange={[Function]}
       placeholder="Amount"
       type="text"
-      value=""
-    />
+      value="" />
     <SingleDatePicker
       anchorDirection="left"
       customCloseIcon={null}
@@ -304,13 +289,11 @@ exports[`Should render erro for invalid form submission 1`] = `
       showDefaultInputIcon={false}
       weekDayFormat="dd"
       withFullScreenPortal={false}
-      withPortal={false}
-    />
+      withPortal={false} />
     <textarea
       onChange={[Function]}
       placeholder="Add a note for your expense (optional)"
-      value=""
-    />
+      value="" />
     <button>
       Add Expense
     </button>
@@ -318,27 +301,24 @@ exports[`Should render erro for invalid form submission 1`] = `
 </div>
 `;
 
-exports[`Should render erro for invalid form submission 2`] = `
+exports[`test Should render erro for invalid form submission 2`] = `
 <div>
   <p>
     Please provide description and amount
   </p>
   <form
-    onSubmit={[Function]}
-  >
+    onSubmit={[Function]}>
     <input
       autoFocus={true}
       onChange={[Function]}
       placeholder="Description"
       type="text"
-      value=""
-    />
+      value="" />
     <input
       onChange={[Function]}
       placeholder="Amount"
       type="text"
-      value=""
-    />
+      value="" />
     <SingleDatePicker
       anchorDirection="left"
       customCloseIcon={null}
@@ -413,13 +393,11 @@ exports[`Should render erro for invalid form submission 2`] = `
       showDefaultInputIcon={false}
       weekDayFormat="dd"
       withFullScreenPortal={false}
-      withPortal={false}
-    />
+      withPortal={false} />
     <textarea
       onChange={[Function]}
       placeholder="Add a note for your expense (optional)"
-      value=""
-    />
+      value="" />
     <button>
       Add Expense
     </button>

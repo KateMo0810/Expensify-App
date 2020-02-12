@@ -1,6 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Should render EditExpensePage 1`] = `
+exports[`test Should render EditExpensePage 1`] = `
 <div>
   <ExpenseForm
     expense={
@@ -12,11 +10,9 @@ exports[`Should render EditExpensePage 1`] = `
         "note": "",
       }
     }
-    onSubmit={[Function]}
-  />
+    onSubmit={[Function]} />
   <button
-    onClick={[Function]}
-  >
+    onClick={[Function]}>
     Remove
   </button>
 </div>

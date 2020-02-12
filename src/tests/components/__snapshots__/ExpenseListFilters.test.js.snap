@@ -1,24 +1,18 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Should render ExpenseListFilters correctly 1`] = `
+exports[`test Should render ExpenseListFilters correctly 1`] = `
 <div>
   <input
     onChange={[Function]}
     type="text"
-    value=""
-  />
+    value="" />
   <select
     onChange={[Function]}
-    value="date"
-  >
+    value="date">
     <option
-      value="date"
-    >
+      value="date">
       Date
     </option>
     <option
-      value="amount"
-    >
+      value="amount">
       Amount
     </option>
   </select>
@@ -103,30 +97,25 @@ exports[`Should render ExpenseListFilters correctly 1`] = `
     startDatePlaceholderText="Start Date"
     weekDayFormat="dd"
     withFullScreenPortal={false}
-    withPortal={false}
-  />
+    withPortal={false} />
 </div>
 `;
 
-exports[`Should render ExpenseListFilters with all data correctly 1`] = `
+exports[`test Should render ExpenseListFilters with all data correctly 1`] = `
 <div>
   <input
     onChange={[Function]}
     type="text"
-    value="bills"
-  />
+    value="bills" />
   <select
     onChange={[Function]}
-    value="amount"
-  >
+    value="amount">
     <option
-      value="date"
-    >
+      value="date">
       Date
     </option>
     <option
-      value="amount"
-    >
+      value="amount">
       Amount
     </option>
   </select>
@@ -211,7 +200,6 @@ exports[`Should render ExpenseListFilters with all data correctly 1`] = `
     startDatePlaceholderText="Start Date"
     weekDayFormat="dd"
     withFullScreenPortal={false}
-    withPortal={false}
-  />
+    withPortal={false} />
 </div>
 `;
