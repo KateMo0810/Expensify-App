@@ -24,4 +24,4 @@ const matchDispatchToProps=(dispatch)=>({
         addExpense:(expense)=>dispatch(addExpense(expense))
 });
 
-export default connect(undefined,)(AddExpensePage);
+export default connect(undefined,matchDispatchToProps)(AddExpensePage);
